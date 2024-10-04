@@ -1,0 +1,47 @@
+@import '../../global.scss';
+
+
+.main {
+    &__content {
+        @include flex(column, center, center);
+    }
+    &__title {
+        font-size: 40px;
+        color: #AE2A33;
+        margin-bottom: 30px;
+    }
+    &__block {
+        padding-top: 60px;
+        background-color: #AC6A6E;
+        color: #fff;
+        width: 360px;
+        height: 81vh;
+        @include flex(column, 0, center);
+        gap: 40px;
+        border-radius: 20px 20px 0 0;
+    }
+    &__card {
+        background-color: #EFE3D3;
+        max-width: 310px;
+        max-height: 200px;
+        border-radius: 20px;
+        padding: 14px 21px 14px 21px;
+        &_header {
+            margin-bottom: 30px;
+            @include flex(row, space-between, center);
+            h2 {
+                font-size: 15px;
+                color: #AE2A33;
+            }
+            p {
+                font-size: 10px;
+                color: #000;
+            }
+        }
+        &_text {
+            font-size: 10px;
+            color: #000;
+        }
+        
+    }
+}

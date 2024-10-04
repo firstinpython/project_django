@@ -1,0 +1,342 @@
+[
+  {
+    "model": "smash_db.My_User",
+    "pk": 1,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Артём",
+      "last_name": "Сушко",
+      "tag": "@reckback",
+      "tag_id": 7045211866,
+      "image": "users_images/7045211866.jpg",
+      "phone": "79528189883",
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 2,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Поля",
+      "last_name": "None",
+      "tag": "@QXRUII",
+      "tag_id": 5575526935,
+      "image": "users_images/5575526935.jpg",
+      "phone": null,
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 3,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Дима",
+      "last_name": "Якорнов",
+      "tag": "@Yakiri",
+      "tag_id": 828087899,
+      "image": "users_images/828087899.jpg",
+      "phone": "79961800116",
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 4,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Данил",
+      "last_name": "Эркенов",
+      "tag": "@dtre1908",
+      "tag_id": 997182224,
+      "image": "users_images/997182224.jpg",
+      "phone": "79869215085",
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 5,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "ㅤ",
+      "last_name": "Деконаидзе Константин",
+      "tag": "@poles5",
+      "tag_id": 1222076662,
+      "image": "users_images/1222076662.jpg",
+      "phone": null,
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 6,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Николай",
+      "last_name": "Гавриленко",
+      "tag": "@NiKola1610",
+      "tag_id": 1394296841,
+      "image": "users_images/1394296841.jpg",
+      "phone": null,
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 7,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Тагир",
+      "last_name": "Нурутдинов",
+      "tag": "@player_first",
+      "tag_id": 1921069854,
+      "image": "users_images/1921069854.jpg",
+      "phone": "79867119714",
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 8,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Egor",
+      "last_name": "Maslenko",
+      "tag": "@Black_Clover_T",
+      "tag_id": 1905098612,
+      "image": "users_images/1905098612.jpg",
+      "phone": null,
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 9,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Евгений",
+      "last_name": "Капарулин",
+      "tag": "@Kaparulin76",
+      "tag_id": 1493393643,
+      "image": "users_images/1493393643.jpg",
+      "phone": "79188082723",
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 10,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Степан",
+      "last_name": "None",
+      "tag": "@Qupa_style",
+      "tag_id": 5373668291,
+      "image": "users_images/5373668291.jpg",
+      "phone": "79128552570",
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 11,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Ринат",
+      "last_name": "None",
+      "tag": "@rrriiinnnaaattt1",
+      "tag_id": 960601793,
+      "image": "users_images/960601793.jpg",
+      "phone": "79178968626",
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 12,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Самир",
+      "last_name": "None",
+      "tag": "@nsksn9",
+      "tag_id": 1280239322,
+      "image": "users_images/1280239322.jpg",
+      "phone": "79625584981",
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 13,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Вова",
+      "last_name": "None",
+      "tag": "@gofry25",
+      "tag_id": 867479709,
+      "image": "users_images/867479709.jpg",
+      "phone": "79063333554",
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 14,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Артур Гафуров",
+      "last_name": "None",
+      "tag": "@arturabrt",
+      "tag_id": 5167643533,
+      "image": "users_images/5167643533.jpg",
+      "phone": null,
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 15,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Ильфат",
+      "last_name": "None",
+      "tag": "@ilfat1100",
+      "tag_id": 1012632266,
+      "image": "users_images/1012632266.jpg",
+      "phone": "79631232859",
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 16,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Ахметханов Мурат",
+      "last_name": "None",
+      "tag": "@Murka_090",
+      "tag_id": 1085433184,
+      "image": "users_images/1085433184.jpg",
+      "phone": null,
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 17,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "VladiMR",
+      "last_name": "Vyrupaev",
+      "tag": "@VladiMR08",
+      "tag_id": 6513944083,
+      "image": "users_images/6513944083.jpg",
+      "phone": null,
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 18,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Илья",
+      "last_name": "Буланов",
+      "tag": "@IlyaBulanovifg",
+      "tag_id": 1006671585,
+      "image": "users_images/1006671585.jpg",
+      "phone": "79874194077",
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 19,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Матвей",
+      "last_name": "Конышев",
+      "tag": "@Ferya1L",
+      "tag_id": 1444677505,
+      "image": "users_images/1444677505.jpg",
+      "phone": null,
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  },
+  {
+    "model": "smash_db.My_User",
+    "pk": 20,
+    "fields": {
+      "last_login": "2024-10-01T15:24:23.193Z",
+      "first_name": "Андрей",
+      "last_name": "Шакиров",
+      "tag": "@Egrovik",
+      "tag_id": 1974960715,
+      "image": "users_images/1974960715.jpg",
+      "phone": null,
+      "battle_like": 0,
+      "admin_battle_like": 0,
+      "likes_users": null,
+      "battle_like_activity": 0
+    }
+  }
+]

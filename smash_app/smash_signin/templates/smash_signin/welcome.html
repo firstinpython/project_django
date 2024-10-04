@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добро пожаловать!</title>
+    <link rel="stylesheet" href="{% static './pages/welcome/css/welcome.css'%}">
+    <link rel="stylesheet" href="{% static './css/global.css' %}">
+    <link type="image/x-icon" href="{% static './assets/img/siteIcon.png'%}" rel="shortcut icon">
+
+</head>
+<body>
+    <section class="main">
+        <header class="headerSP">
+            <h1 class="headerSP__title">Smash</h1>
+        </header>
+
+        <div class="main__content">
+            <div class="main__card">
+                <h1 class=main__card_title>
+                    Привет !
+                </h1>
+
+                <p class="main__card_sub-title">
+                    Это сайт для знакомств среди первокурсников Алабуга политех<br>здесь ты встретишь много новых людей
+                </p>
+
+                <form action="" method = 'post'>
+                    {% csrf_token %}
+                    <label for="lol">Укажите тег tg</label>
+                    <input type="text" name="tag" id = 'lol'>
+                    <p class="main__card_info">
+                    *эта информация нужна нам чтобы проверить действительно ли вы первокурсник
+                    </p>
+
+                <button  type="submit" class="main__card_btn" >
+                        Продолжить
+                </button>
+                </form>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>*нажимая кнопку “продолжить” вы соглашаетесь с нашей политекой. Мы никого не хотим обидеть/оскорбить</p>
+        </footer>
+    </section>
+</body>
+</html>

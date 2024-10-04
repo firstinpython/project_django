@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../../css/global.css">
+    <link type="image/x-icon" href="../../assets/img/siteIcon.png" rel="shortcut icon">
+</head>
+<body>
+    <section class="main">
+        <header class="header">
+            <a class="linkToMain" href="../main/main.html">
+                <div class="header__logo">
+                    <p>Smash</p>
+                    <img src="../../assets/img/icon.svg" alt="Smash icon">
+                </div>
+            </a>
+
+            <div class="header__burger">
+                <a href="#"><img src="../../assets/img/burger.svg" alt="header__burger"></a>
+            </div>
+
+            <div class="header__burgerMenu" id="burgerMenu">
+                <ul>
+                    <li>
+                        <a class="header__burgerMenu-title" href="../../pages/main/main.html">Smash</a>
+                    </li>
+                    <li>
+                        <a class="header__burgerMenu-vlog" href="../../pages/vlog/vlog.html">Влог</a>
+                    </li>
+                    <li>
+                        <a class="header__burgerMenu-account" href="../../pages/account/accout.html">Профиль</a>
+                    </li>
+                    <li>
+                        <a class="header__burgerMenu-historu" href="#">История</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="main__content">
+            <h1 class="main__title">
+                Главная
+            </h1>
+            <p class="main__sub-title">
+                Спасибо что зашли на наш сайт!<br>Делаее представленны разделы нашего сайта
+            </p>
+            <div class="main__firstRow">
+                <div class="main__card">
+                    <h3 class="main__card_title">Tinder</h3>
+                    <p class="main__card_sub-title">В этом разделе вы можете завести новых друзей или найти себе партнера</p>
+                    <button class="main__card_btn">
+                        <a href="../../pages/tinder/tinder.html" class="main__card_btn-text">перейти</a>
+                    </button>
+                </div>
+
+                <div class="main__card">
+                    <h3 class="main__card_title">Smash battle</h3>
+                    <p class="main__card_sub-title">Здесь вы вибираете кто по вашему лучше. В конце месяца определяеться победитель</p>
+                    <button class="main__card_btn">
+                        <a href="../../index.html" class="main__card_btn-text">перейти</a>
+                    </button>
+                </div>
+            </div>
+            <div class="main__secondRow">
+                <div class="main__card">
+                    <h3 class="main__card_title">Влог</h3>
+                    <p class="main__card_sub-title">Здесь мы делимся с вами актуальными новостями. А так же читаем ваши сообщения</p>
+                    <button class="main__card_btn btn">
+                        <a href="../vlog/vlog.html" class="main__card_btn-text">перейти</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>*нажимая кнопку “продолжить” вы соглашаетесь с нашей политекой. Мы никого не хотим обидеть/оскорбить</p>
+        </footer>
+    </section>
+    <script src="../../burger.js"></script>
+</body>
+</html>

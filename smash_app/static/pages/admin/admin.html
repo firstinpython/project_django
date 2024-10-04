@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN PANEL</title>
+    <link rel="stylesheet" href="./css/admin.css">
+    <link rel="stylesheet" href="../../css/global.css">
+    <link type="image/x-icon" href="../../assets/img/siteIcon.png" rel="shortcut icon">
+</head>
+<body>
+    
+    <section class="main">
+        <header class="header">
+            <a class="linkToMain" href="../main/main.html">
+                <div class="header__logo">
+                    <p>Smash</p>
+                    <img src="../../assets/img/icon.svg" alt="Smash icon">
+                </div>
+            </a>
+
+            <div class="header__burger">
+                <a href="#"><img src="../../assets/img/burger.svg" alt="header__burger"></a>
+            </div>
+            <div class="header__burgerMenu" id="burgerMenu">
+                <ul>
+                    <li>
+                        <a class="header__burgerMenu-title" href="./pages/main/main.html">Smash</a>
+                    </li>
+                    <li>
+                        <a class="header__burgerMenu-vlog" href="./pages/vlog/vlog.html">Влог</a>
+                    </li>
+                    <li>
+                        <a class="header__burgerMenu-account" href="./pages/account/accout.html">Профиль</a>
+                    </li>
+                    <li>
+                        <a class="header__burgerMenu-historu" href="#">История</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="main__content">
+            <h1 class="main__title">Админ</h1>
+
+            <div class="main__card">
+                <h3 class="main__card-title">
+                    Форум
+                </h3>
+                <form action="" class="main__card-formMain">
+                    <textarea class="main__inputTEXT" type="text" placeholder="текст"></textarea>
+                </form>
+
+                <div class="main__card_twoButtons">
+                    <form class="main__card_user">
+                        <input class="main__user" type="text" placeholder="пользователь">
+                    </form>
+
+                    <button class="main__card_upload btn">
+                        <p>
+                            Сохранить
+                        </p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="main__card">
+                <h3 class="main__card-title">
+                    Батл
+                </h3>
+                <div class="main__card_row">
+                    <form action="" class="main__card-user1">
+                        <input class="main__card-userInput" type="text" placeholder="пользователь 1">
+                    </form>
+                    <form action="" class="main__card-user2">
+                        <input class="main__card-userInput" type="text" placeholder="пользователь 2">
+                    </form>
+                </div>
+
+                <button class="main__card_uploadBattle btn">
+                    <p>
+                        Сохранить
+                    </p>
+                </button>    
+            </div>
+
+            <div class="main__card main__card-deleteUser">
+                <h3 class="main__card-title">
+                    Удалить пользователя
+                </h3>
+                <form action="">
+                    <input class="main__card-userInput" type="text" placeholder="пользователь">
+                </form>
+
+                <button class="main__card_upload btn">
+                    <p>
+                        Удалить
+                    </p>
+                </button>
+            </div>
+
+            <button class="main__button">
+                <p>
+                    Готово
+                </p>
+            </button>
+
+        </div>
+    </section>
+    <script src="../../burger.js"></script>
+</body>
+</html>

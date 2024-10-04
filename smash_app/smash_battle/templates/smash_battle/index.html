@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smash battle</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link type="image/x-icon" href="./assets/img/siteIcon.png" rel="shortcut icon">
+</head>
+<body>
+    <div class="darken">
+        <section class="main">
+            <header class="header">
+                <a class="linkToMain" href="./pages/main/main.html">
+                    <div class="header__logo">
+                        <p>Smash</p>
+                        <img src="./assets/img/icon.svg" alt="Smash icon">
+                    </div>
+                </a>
+                <div class="header__burger">
+                    <a href="#"><img src="./assets/img/burger.svg" alt="header__burger"></a>
+                </div>
+                <div class="header__burgerMenu" id="burgerMenu">
+                    <ul>
+                        <li>
+                            <a class="header__burgerMenu-title" href="./pages/main/main.html">Smash</a>
+                        </li>
+                        <li>
+                            <a class="header__burgerMenu-vlog" href="./pages/vlog/vlog.html">Влог</a>
+                        </li>
+                        <li>
+                            <a class="header__burgerMenu-account" href="./pages/account/accout.html">Профиль</a>
+                        </li>
+                        <li>
+                            <a class="header__burgerMenu-historu" href="#">История</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div class="main__content">
+                <h1 class="main__title">Smash-battle</h1>
+                <p class="main__sub-title">Мы выбрали двух случайных людей<br>Вебери кто лучше!</p>
+
+                <div class="main__cards" >
+                    <form action="" method="post">
+
+                        <a href="#" class="card_link" type = "submit">
+                            <div class="main__card">
+                                <img src="./assets/img/my_foto.jpg" alt="profile__foto">
+
+                                <p class="main__card-notMain">
+                                    Дима Якорнов
+                                </p>
+
+                                <p class="main__card-years">
+                                    16
+                                </p>
+
+                                <p class="main__card-telegramTEG">
+                                    @yakiri
+                                </p>
+
+                            </div>
+                        </a>
+                    </form>
+
+                    <p class="main__versus">VS</p>
+
+                    <a href="#" class="card_link">
+                        <div class="main__card">
+                            <img src="./assets/img/my_foto.jpg" alt="profile__foto">
+
+                            <p class="main__card-notMain">
+                                Айыма Медербековна
+                            </p>
+
+                            <p class="main__card-years">
+                                16
+                            </p>
+
+                            <p class="main__card-telegramTEG">
+                                @yakiri
+                            </p>
+
+                        </div>
+                    </a>
+
+                </div>
+
+                <h2 class="main__extraContent">
+                    Нажми за кого голосуешь
+                </h2>
+            </div>
+            <footer class="footer">
+                <p class="footer__extra">*нажимая кнопку “продолжить” вы соглашаетесь с нашей политекой. Мы никого не хотим обидеть/оскорбить</p>
+                <p class="footer__main">РЕЗУЛЬТАТ БИТВЫ ПУБЛИКУЕТЬСЯ В КОНЦЕ НЕДЕЛЕИ</p>
+            </footer>
+        </section>
+    </div>
+    <script src="./burger.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+@import './global.scss';
+
+.main{
+    
+    &__content {
+        @include flex(column, center, center);
+        text-align: center;
+    }
+    &__title {
+        color: #AE2A33;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    &__sub-title {
+        color: #AE2A33;
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+    &__cards {
+        @include flex(row, space-between, center);
+        margin-bottom: 52px;
+        gap: 5px;
+    }
+    a {
+        text-decoration: none;
+    }
+    &__card {
+        background-color: #AC6A6E;
+        color: #E4BEC2;
+        border-radius: 20px;
+        height: 300px;
+        width: 150px;
+        img {
+            width: 150px;
+            height: 145px;
+            border-radius: 20px 20px 0 0 ;
+        }
+        &-telegramTEG {
+            color: #fff;
+            font-size: 22px;
+        }
+        &-notMain{
+            height: 30px;
+            margin-bottom: 25px;
+        }
+        &-years {
+            margin-bottom: 5px;
+        }
+    }
+    &__versus {
+        color: #AE2A33;
+    }
+    &__extraContent {
+        color: #AC6A6E;
+        font-size: 25px;
+    }
+}
