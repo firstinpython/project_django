@@ -33,6 +33,7 @@ def loggin(request):
                 print('okkkk')
                 return render(request, 'smash_signin/welcome.html')
                 # return profile(request)
+                # return HttpResponseRedirect(reverse('user:profile'))
     return render(request, 'smash_signin/welcome.html')
 
 
