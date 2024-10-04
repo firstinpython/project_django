@@ -1,6 +1,6 @@
 # Create your views here.
 from django.shortcuts import render, HttpResponseRedirect, reverse
-from .auth import login
+
 from django.contrib import auth
 import smash_db.models
 from .backends import SettingsBackend
