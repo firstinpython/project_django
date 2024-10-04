@@ -22,7 +22,7 @@ def loggin(request):
 
             name = auth.authenticate(username=user.username, password='lolololol')
             if name:
-                login(request, name)
+                auth.login(request, name)
                 print('ok')
                 return HttpResponseRedirect(reverse('user:profile'))
         else:
